@@ -2,6 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*  CSS Inlining */
+.hero-swiper { min-height: 100vh; }
+.mobile-menu { will-change: transform; }
+.nav-link { will-change: transform; }
+
 /* ==========================================
    BASE CSS
    ========================================== */
@@ -10,11 +16,13 @@
         @apply scroll-smooth;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        font-display: swap;
     }
 
     body {
         @apply font-sans leading-relaxed overflow-x-hidden;
         font-family: "Inter", sans-serif;
+        font-display: swap;
     }
     h1,
     h2,
@@ -23,7 +31,27 @@
     h5,
     h6 {
         @apply font-bold tracking-tight;
+        font-display: swap;
     }
+}
+
+/* Performance optimizations */
+img {
+    content-visibility: auto;
+}
+
+.swiper-lazy-preloader {
+    border: 2px solid #ff6b00;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* ==========================================

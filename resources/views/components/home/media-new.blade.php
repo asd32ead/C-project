@@ -45,10 +45,13 @@ $mediaProjects = [
                                 <div class="flex flex-col md:grid md:grid-cols-2 min-h-[360px] md:min-h-[520px]">
                                     <!-- Image Section -->
                                     <div class="h-48 md:h-auto md:order-2">
-                                        <img src="{{ $project['image'] }}"
-                                             alt="{{ $project['title'] }}"
-                                             class="w-full h-full object-cover object-center"
-                                             loading="lazy">
+<img src="{{ $project['image'] }}"
+     alt="{{ $project['title'] }}"
+     class="w-full h-full object-cover object-center"
+     loading="lazy"
+     decoding="async"
+     sizes="(max-width: 768px) 100vw, 50vw">
+
                                     </div>
                                     <!-- Content Section -->
                                     <div class="p-6 md:p-10 flex flex-col justify-center md:order-1">

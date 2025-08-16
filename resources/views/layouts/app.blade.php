@@ -10,22 +10,22 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     
-    <!-- Preload  Resources -->
+    <!-- Critical Resource Hints -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <!-- Preload Critical Fonts -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
-    
+    <!-- Optimized Font Loading -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"></noscript>
+        
     <!-- Custom CSS -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
     @stack('styles')
 </head>
-<body class="font-sans antialiased">    
+<body class="font-sans antialiased" style="font-display: swap;">    
     <!-- Navigation -->
     @include('partials.navigation')
     

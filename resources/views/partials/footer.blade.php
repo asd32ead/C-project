@@ -8,9 +8,14 @@
             
             <!-- Logo + Description -->
             <div class="lg:col-span-4">
-                <img src="https://tgdevelopments.net/front/TG%20LOGO%20FINAL%20black.png" alt="company Logo" 
-                     alt="TG Developments Logo" 
-                     class="w-44 h-auto mb-4">
+<img src="https://tgdevelopments.net/front/TG%20LOGO%20FINAL%20black.png"
+     alt="TG Developments Logo" 
+     class="w-44 h-auto mb-4"
+     loading="lazy"
+     decoding="async"
+     width="176"
+     height="auto">
+
                 <p class="text-gray-600 text-sm leading-relaxed max-w-sm">
                     The company's extensive experience and focus on quality and innovation,
                     position it as a leading player in the development and investment sector.

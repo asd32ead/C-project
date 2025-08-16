@@ -12,11 +12,12 @@
 
       <!-- Image Side -->
       <div class="min-h-[600px] h-full bg-[#F1F1F1] relative" data-aos="fade-left">
-        <img 
-          src="{{asset('assets/images/ceo-message/ceo-img.jpeg')}}" 
-          class="absolute inset-0 h-full w-full object-contain"
-          alt="CEO - IMG"
-        >
+<img 
+  src="{{asset('assets/images/ceo-message/ceo-img.jpeg')}}" 
+  class="absolute inset-0 h-full w-full object-contain"
+  alt="CEO - IMG"
+>
+
       </div>
 
     </div>

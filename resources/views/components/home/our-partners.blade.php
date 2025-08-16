@@ -20,10 +20,11 @@
                     <div class="swiper-wrapper">
                         @foreach(glob(public_path('assets/images/partners/*.png')) as $path)
                             <div class="swiper-slide flex items-center justify-center">
-                                <img src="{{ asset('assets/images/partners/' . basename($path)) }}" 
-                                     alt="Partner Logo" 
-                                     class="h-16 md:h-20 lg:h-24 object-contain opacity-80 hover:opacity-100 transition">
-                            </div>
+<img src="{{ asset('assets/images/partners/' . basename($path)) }}" 
+     alt="Partner Logo" 
+     class="h-16 md:h-20 lg:h-24 object-contain opacity-80 hover:opacity-100 transition"
+     loading="lazy"
+     decoding="async">                            </div>
                         @endforeach
                     </div>
                 </div>

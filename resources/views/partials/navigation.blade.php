@@ -5,7 +5,13 @@
             <!-- Logo -->
 <div class="flex-shrink-0 pl-4">
     <a href="{{ route('home') }}" class="flex items-center">
-        <img src="{{ asset('assets/images/logo.png') }}" class="h-24 w-auto" alt="Company Logo">
+<img src="{{ asset('assets/images/logo.png') }}" 
+     class="h-24 w-auto" 
+     alt="Company Logo"
+     fetchpriority="high"
+     decoding="async"
+     width="96"
+     height="96">
     </a>
 </div>
           <!-- Desktop Navigation -->
