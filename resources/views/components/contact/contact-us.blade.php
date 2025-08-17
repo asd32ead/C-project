@@ -1,16 +1,16 @@
 <section 
-    class="py-20 md:py-28 bg-cover bg-center min-h-screen flex items-center" 
+    class="relative py-20 md:py-28 bg-cover bg-center min-h-screen flex items-center overflow-hidden" 
     style="background-image: url('{{ asset('assets/images/home/why-choose-us/why-choose-us-background.png') }}')"
 >
-  <div class="container mx-auto px-4">
-    <div class="max-w-6xl mx-auto text-center mb-16" data-aos="fade-down">
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="max-w-6xl mx-auto text-center mb-16" data-aos="fade-down" data-aos-offset="0">
       <h1 class="text-4xl md:text-5xl font-bold text-orange-600 mb-4 drop-shadow-lg">Contact Us</h1>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
       <!-- Contact Form -->
-      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-2xl" data-aos="fade-right">
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-2xl" data-aos="fade-right" data-aos-offset="0">
         <h2 class="text-2xl font-bold text-gray-800 mb-6">Send us a message</h2>
         <form class="space-y-6" onsubmit="event.preventDefault(); showError();">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
@@ -55,7 +55,7 @@
       </div>
 
       <!-- Contact Info & Map -->
-      <div class="space-y-6" data-aos="fade-left">
+      <div class="space-y-6" data-aos="fade-left" data-aos-offset="0">
         <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-2xl">
           <h2 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h2>
 

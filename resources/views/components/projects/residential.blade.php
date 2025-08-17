@@ -6,7 +6,7 @@
              data-aos-duration="600"
              data-aos-offset="100"
              data-aos-anchor-placement="top-bottom">
-            <span class="h-[3px] w-12 bg-[#ff6b00] rounded-full"></span>
+            <span class="h-[3px] w-12 bg-primary rounded-full"></span>
             <h2 class="section-title text-left">
                 Residential Projects
             </h2>

@@ -1,11 +1,11 @@
 <!-- About us section -->
-    <section>
+    <section class="overflow-hidden">
         <!-- Company Description Section -->
         <div class="bg-gray-50 py-16 lg:py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl">
                     <div class="space-y-6">
-                        <p class="text-lg lg:text-xl text-gray-800 leading-relaxed" data-aos="fade-up" data-aos-duration="800">
+                        <p class="text-lg lg:text-xl text-gray-800 leading-relaxed" data-aos="fade-up" data-aos-duration="800" data-aos-offset="0">
                             TG Developments is an esteemed Egyptian joint stock company with over 20+ years of experience in the field of real estate development and investment owned by Mr. Ashraf Tahoon.
                         </p>
                         
@@ -22,7 +22,7 @@
         </div>
 
         <!-- Mission Section -->
-        <div class="relative py-20 lg:py-28 bg-center bg-cover bg-no-repeat" style="background-image: url('{{ asset('assets/images/about/mission-bg.png') }}');" data-aos="fade-up" data-aos-duration="1000">
+        <div class="relative py-20 lg:py-28 bg-center bg-cover bg-no-repeat overflow-hidden" style="background-image: url('{{ asset('assets/images/about/mission-bg.png') }}');" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="absolute inset-0 bg-gray-900 bg-opacity-70"></div>
             
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +45,7 @@
         </div>
 
         <!-- Vision Section -->
-        <div class="bg-gray-100 py-20 lg:py-28" data-aos="fade-up" data-aos-duration="1000">
+        <div class="bg-gray-100 py-20 lg:py-28 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                     <!-- Vision Content -->
