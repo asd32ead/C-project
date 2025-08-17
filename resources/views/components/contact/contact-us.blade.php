@@ -64,7 +64,8 @@
               <div class="flex-shrink-0 bg-orange-500/10 p-3 rounded-lg text-orange-500"><i class="fas fa-location-dot w-6 h-6"></i></div>
               <div>
                 <h3 class="text-lg font-semibold text-gray-800">Our Address</h3>
-                <p class="text-gray-600 mt-1">123 Business Avenue, Downtown, Cairo, Egypt</p>
+                <p class="text-gray-600 mt-1">Epic Mall, North 90th, Fifth Settlement, First Floor
+</p>
               </div>
             </div>
 
@@ -72,7 +73,7 @@
               <div class="flex-shrink-0 bg-orange-500/10 p-3 rounded-lg text-orange-500"><i class="fas fa-envelope w-6 h-6"></i></div>
               <div>
                 <h3 class="text-lg font-semibold text-gray-800">Email Us</h3>
-                <a href="mailto:info@example.com" class="text-gray-600 hover:text-orange-500 transition mt-1 block">info@example.com</a>
+                <a href="mailto:info@tgdevelopments.com" class="text-gray-600 hover:text-orange-500 transition mt-1 block">info@tgdevelopments.com</a>
               </div>
             </div>
 
@@ -80,7 +81,7 @@
               <div class="flex-shrink-0 bg-orange-500/10 p-3 rounded-lg text-orange-500"><i class="fas fa-phone w-6 h-6"></i></div>
               <div>
                 <h3 class="text-lg font-semibold text-gray-800">Call Us</h3>
-                <a href="tel:+201234567890" class="text-gray-600 hover:text-orange-500 transition mt-1 block">+20 123 456 7890</a>
+                <a href="tel:+16497" class="text-gray-600 hover:text-orange-500 transition mt-1 block">+16497</a>
               </div>
             </div>
           </div>
