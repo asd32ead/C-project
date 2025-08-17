@@ -3,19 +3,19 @@ $mediaProjects = [
     [
         'title' => 'Palm Island',
         'description' => 'Palm Island project launching',
-        'image' => asset('assets/images/projects/1.jpg'),
+        'image' => asset('assets/images/allprojects/projects/1.jpg'),
         'link' => '#'
     ],
     [
         'title' => 'Palm East',
         'description' => 'Palm East launching event',
-        'image' => asset('assets/images/projects/3.jpg'),
+        'image' => asset('assets/images/allprojects/projects/3.jpg'),
         'link' => '#'
     ],
     [
         'title' => 'Palm Capital',
         'description' => 'Palm Capital project launching',
-        'image' => asset('assets/images/projects/4.jpg'),
+        'image' => asset('assets/images/allprojects/projects/4.jpg'),
         'link' => '#'
     ]
 ];

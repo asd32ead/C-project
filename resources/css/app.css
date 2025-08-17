@@ -145,13 +145,6 @@ img {
        Footer 
        ========================================== */
 
-/* Background image  */
-.footer {
-    @apply relative;
-    background: url("https://tgdevelopments.net/front/backgroundWhite-gray-pattern.jpg")
-        center/cover no-repeat;
-    min-height: 400px;
-}
 
 /*  section (links / developments) */
 

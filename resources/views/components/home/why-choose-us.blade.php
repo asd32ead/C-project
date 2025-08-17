@@ -1,9 +1,9 @@
-<section class="why-choose-section" style="background-image: url('/assets/images/why-choose-us/why-choose-us-background.png')">
+<section class="why-choose-section" style="background-image: url('/assets/images/home/why-choose-us/why-choose-us-background.png')">
     <div class="why-choose-container">
         <!-- Image section -->
         <div class="why-choose-image" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
             <img 
-           src="{{asset('assets/images/why-choose-us/why-choose-us-text.png')}}" 
+           src="{{asset('assets/images/home/why-choose-us/why-choose-us-text.png')}}" 
             alt="Why Choose Us"
             >
         </div>

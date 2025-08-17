@@ -11,13 +11,12 @@
       </div>
 
       <!-- Image Side -->
-      <div class="min-h-[600px] h-full bg-[#F1F1F1] relative" data-aos="fade-left">
-<img 
-  src="{{asset('assets/images/ceo-message/ceo-img.jpeg')}}" 
-  class="absolute inset-0 h-full w-full object-contain"
-  alt="CEO - IMG"
->
-
+      <div class="min-h-[400px] md:min-h-[600px] h-full relative" data-aos="fade-left">
+        <img 
+          src="{{asset('assets/images/home/ceo-message/ceo-img.jpeg')}}" 
+          class="absolute inset-0 h-full w-full object-cover md:rounded-none rounded-b-[50px]"
+          alt="CEO - IMG"
+        >
       </div>
 
     </div>

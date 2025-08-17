@@ -1,5 +1,5 @@
-<footer class="footer">
-    <!-- Overlay -->
+<footer class="relative bg-center bg-cover bg-no-repeat min-h-[400px]" style="background-image: url('{{ asset('assets/images/footer.jpg') }}');">
+            <!-- Overlay -->
     <div class="absolute inset-0 bg-white/30"></div>
 
     <!-- Container -->
@@ -8,8 +8,8 @@
             
             <!-- Logo + Description -->
             <div class="lg:col-span-4">
-<img src="https://tgdevelopments.net/front/TG%20LOGO%20FINAL%20black.png"
-     alt="TG Developments Logo" 
+        <img src="{{ asset('assets/images/logo-black.png') }}" 
+     alt="company Logo" 
      class="w-44 h-auto mb-4"
      loading="lazy"
      decoding="async"
